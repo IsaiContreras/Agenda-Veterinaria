@@ -1,7 +1,7 @@
 ﻿  mainSource.cpp
-d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(828): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1080): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
-d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1104): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
-d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1108): warning C4018: '<': no coinciden signed/unsigned
-d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1428): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(829): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1082): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
+d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1106): warning C4244: 'inicializando': conversión de 'std::streamoff' a 'int'; posible pérdida de datos
+d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1110): warning C4018: '<': no coinciden signed/unsigned
+d:\alexi\documents\visual proyectos\agendaveterinaria pa 01\agendaveterinaria pa 01\mainsource.cpp(1430): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
   AgendaVeterinaria PA 01.vcxproj -> D:\alexi\Documents\Visual Proyectos\AgendaVeterinaria PA 01\Debug\AgendaVeterinaria PA 01.exe

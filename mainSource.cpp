@@ -189,6 +189,9 @@ BOOL CALLBACK agendaVentanaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM 
 			break;
 		}
 		//GESTIÓN DE CITAS
+		if (LOWORD(wParam) == BTN_SAVE && HIWORD(wParam) == BN_CLICKED) {
+			saveLista(origin);
+		}
 		if (LOWORD(wParam) == BTN_SELECT && HIWORD(wParam) == BN_CLICKED) {
 			int index = SendMessage(hLbAgenda, LB_GETCURSEL, 0, 0);
 			if (index > -1) {
@@ -375,6 +378,7 @@ BOOL CALLBACK agendaVentanaPrincipal(HWND hwnd, UINT msg, WPARAM wParam, LPARAM 
 		break;
 	case WM_DESTROY:
 		if (salida) {
+			aux = origin;
 			PostQuitMessage(0);
 		}
 	    break;
@@ -986,6 +990,7 @@ BOOL CALLBACK editarInfoDoctor(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam
 	}break;
 	case WM_DESTROY:
 		if (salida) {
+			aux = origin;
 			PostQuitMessage(0);
 		}
 		break;
