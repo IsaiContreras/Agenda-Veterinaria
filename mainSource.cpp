@@ -45,8 +45,8 @@ struct CITA {
 	string telefono;
 	string especie;
 	char motivoConsulta[MAX_PATH];
-	char image1[MAX_PATH] = "";
-	char image2[MAX_PATH] = "";
+	char image1[MAX_PATH];
+	char image2[MAX_PATH];
 	string fechaString;
 	string horaString;
 	int year;
@@ -67,7 +67,7 @@ struct DOCTOR {
 
 fstream archivo;
 
-char chCambioFoto[MAX_PATH] = "";
+char chCambioFoto[MAX_PATH];
 bool salida = false;
 int indexImage;
 #pragma endregion
